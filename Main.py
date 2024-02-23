@@ -28,9 +28,9 @@ def retrieve_notion_page(page_id, token):
         return response.status_code, response.text
 
 # Substitua com o seu token de acesso e o ID do banco de dados
-notion_token = "secret_f0figqQTNo2yaqPjUlrcG1bM1RPbQfaFg5DSwkNqHtn"
-database_id = "7f96c1e68f254bdaa0a00ec8e4c19768"
-page_id = "e3dc357c034a48c7a2dab77d27bf7be9"
+notion_token = "secret_f0figqQJHfs2yafkUlrcgfhj1RPbQfghkfjDSwgkjhfjHtn"
+database_id = "7f97d6f7y68f254gjhfghjc8e4c1d8f7f7"
+page_id = "e3dc357ugih48kfjhgabfg98fg79vjhfd9"
 
 # Chamar a função e imprimir os resultados
 result = query_notion_database(database_id, notion_token)['results']
